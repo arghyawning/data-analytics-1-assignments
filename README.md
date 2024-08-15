@@ -11,7 +11,7 @@ Arghya, Muskan
 - [x] task 5
 - [x] task 6
 - [x] task 7
-- [ ] task 8
+- [x] task 8
 - [x] task 9
 - [ ] task 10
     - [x] preprocessing
