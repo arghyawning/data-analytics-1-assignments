@@ -14,6 +14,7 @@ Arghya, Muskan
 - [ ] task 8
 - [x] task 9
 - [ ] task 10
+    - [x] preprocessing
     - [ ] clean code
     - [ ] ensure vectorised code
 - [ ] task 11 (report)
