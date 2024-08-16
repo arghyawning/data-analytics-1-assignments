@@ -13,8 +13,9 @@ Arghya, Muskan
 - [x] task 7
 - [x] task 8
 - [x] task 9
-- [ ] task 10
+- [x] task 10
     - [x] preprocessing
-    - [ ] clean code
-    - [ ] ensure vectorised code
-- [ ] task 11 (report)
+    - [x] clean code
+    - [x] ensure vectorised code
+- [ ] task 11 (investor report)\
+- [ ] analysis within notebook
