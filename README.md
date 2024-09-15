@@ -35,9 +35,9 @@ Arghya, Muskan
 
 ### Assignment 3: Association Rule Mining
 
-- [ ] Data Preprocessing
+- [x] Data Preprocessing
     - [x] Form transactional dataset
-    - [ ] Train-test split
+    - [x] Train-test split
 - [ ] Association Rule Mining
     - [ ] Extract set of all association rules using Apriori/FP Growth
     - [ ] Recommendation
