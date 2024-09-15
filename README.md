@@ -17,5 +17,33 @@ Arghya, Muskan
     - [x] preprocessing
     - [x] clean code
     - [x] ensure vectorised code
-- [ ] task 11 (investor report)\
-- [ ] analysis within notebook
+- [x] task 11 (investor report)\
+- [x] analysis within notebook
+
+
+### Assignment 2: BUC Algorithm and Attribute Oriented Induction
+
+- [x] Attribute Oriented Induction
+- [x] BUC Algorithm
+    - [x] In-memory Implementation
+    - [x] Out-of-memory Implementation
+- [x] Performance Analysis
+- [x] Optimization Technique
+- [x] Comparison of BUC and AOI
+- [x] Report
+
+
+### Assignment 3: Association Rule Mining
+
+- [ ] Data Preprocessing
+    - [x] Form transactional dataset
+    - [ ] Train-test split
+- [ ] Association Rule Mining
+    - [ ] Extract set of all association rules using Apriori/FP Growth
+    - [ ] Recommendation
+        - [ ] Top 100 association rules based on support
+        - [ ] Top 100 association rules based on confidence
+        - [ ] Common rules between the two, prioritizing confidence
+    - [ ] Compute average precision and recall by varying number of rules and plot graphs
+    - [ ] Display precision and recall graphs for sample user
+- [ ] Report
