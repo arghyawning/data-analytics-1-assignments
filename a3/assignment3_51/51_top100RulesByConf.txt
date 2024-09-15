@@ -1,0 +1,100 @@
+Rule: {2858, 356, 1196, 2028} -> {2571}, Confidence: 1.00, Support: 32
+Rule: {3578, 2858, 1196} -> {2571}, Confidence: 0.97, Support: 36
+Rule: {2762, 1036, 2028} -> {2571}, Confidence: 0.97, Support: 36
+Rule: {3578, 2028, 2858} -> {2571}, Confidence: 0.97, Support: 35
+Rule: {32, 1196, 2028} -> {2571}, Confidence: 0.97, Support: 34
+Rule: {3578, 2028, 110} -> {2571}, Confidence: 0.97, Support: 34
+Rule: {296, 3578, 1196} -> {2571}, Confidence: 0.97, Support: 32
+Rule: {3793, 1196, 260, 318} -> {2571}, Confidence: 0.97, Support: 32
+Rule: {4226, 260, 1196, 2858} -> {2571}, Confidence: 0.97, Support: 32
+Rule: {7361, 260, 318} -> {2571}, Confidence: 0.97, Support: 32
+Rule: {1265, 3578, 1196} -> {2571}, Confidence: 0.97, Support: 32
+Rule: {6377, 1196, 2571, 356} -> {318}, Confidence: 0.97, Support: 31
+Rule: {1210, 2028, 1221} -> {1196}, Confidence: 0.97, Support: 31
+Rule: {4993, 4226, 1196, 318} -> {2571}, Confidence: 0.97, Support: 31
+Rule: {33493, 318} -> {1196}, Confidence: 0.97, Support: 31
+Rule: {1240, 1196, 2028} -> {2571}, Confidence: 0.95, Support: 40
+Rule: {4226, 2858, 1196} -> {2571}, Confidence: 0.95, Support: 39
+Rule: {1196, 293, 318} -> {2571}, Confidence: 0.95, Support: 37
+Rule: {3578, 1196, 2028} -> {2571}, Confidence: 0.95, Support: 36
+Rule: {2858, 260, 1196, 318} -> {2571}, Confidence: 0.95, Support: 36
+Rule: {8961, 1196, 318} -> {2571}, Confidence: 0.95, Support: 35
+Rule: {1196, 780, 2028} -> {2571}, Confidence: 0.95, Support: 35
+Rule: {1584, 2571} -> {1196}, Confidence: 0.95, Support: 35
+Rule: {1240, 2028, 110} -> {2571}, Confidence: 0.95, Support: 35
+Rule: {2028, 589, 318} -> {2571}, Confidence: 0.95, Support: 35
+Rule: {50, 2571, 260, 318} -> {1196}, Confidence: 0.95, Support: 35
+Rule: {3147, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 34
+Rule: {4226, 2858, 1196, 318} -> {2571}, Confidence: 0.94, Support: 34
+Rule: {480, 50, 1210} -> {1196}, Confidence: 0.94, Support: 34
+Rule: {3578, 780, 1196} -> {2571}, Confidence: 0.94, Support: 34
+Rule: {3793, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 34
+Rule: {3793, 1196, 1265} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {1196, 5445, 318} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {1968, 1291} -> {1198}, Confidence: 0.94, Support: 33
+Rule: {318, 1196, 4886} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {1210, 260, 1221} -> {1196}, Confidence: 0.94, Support: 33
+Rule: {2858, 1196, 293} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {858, 1196, 1213} -> {260}, Confidence: 0.94, Support: 33
+Rule: {2858, 260, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {858, 1196, 527} -> {260}, Confidence: 0.94, Support: 33
+Rule: {1682, 1196, 318} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {2916, 1214} -> {1196}, Confidence: 0.94, Support: 33
+Rule: {1240, 260, 1214} -> {1196}, Confidence: 0.94, Support: 33
+Rule: {2858, 1196, 527} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {2762, 3578, 1196} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {3578, 1196, 110} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {4226, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {7361, 1196, 318} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {4226, 110, 2959} -> {2571}, Confidence: 0.94, Support: 33
+Rule: {8961, 5218} -> {4306}, Confidence: 0.94, Support: 33
+Rule: {1265, 2716, 1198} -> {480}, Confidence: 0.94, Support: 33
+Rule: {593, 2571, 7438} -> {6874}, Confidence: 0.94, Support: 32
+Rule: {4226, 2028, 110} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {4226, 1196, 356, 260} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {3793, 2571, 260, 318} -> {1196}, Confidence: 0.94, Support: 32
+Rule: {1240, 4226, 1196} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {1200, 2916, 260} -> {1196}, Confidence: 0.94, Support: 32
+Rule: {356, 50, 2571, 260} -> {1196}, Confidence: 0.94, Support: 32
+Rule: {2858, 356, 2028, 2959} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {50, 589, 858} -> {260}, Confidence: 0.94, Support: 32
+Rule: {1196, 318, 1527} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {608, 3793, 1196} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {33794, 1196, 318} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {318, 1210, 1196, 2028} -> {260}, Confidence: 0.94, Support: 32
+Rule: {1240, 1196, 260, 2028} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {2028, 293, 318} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {5952, 1196, 1270} -> {260}, Confidence: 0.94, Support: 32
+Rule: {4226, 1196, 293} -> {2571}, Confidence: 0.94, Support: 32
+Rule: {1210, 50, 260, 1198} -> {1196}, Confidence: 0.94, Support: 31
+Rule: {593, 2858, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {593, 4226, 2858, 1196} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {2762, 1210, 1291} -> {260}, Confidence: 0.94, Support: 31
+Rule: {6377, 1196, 356, 318} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {2985, 1270} -> {260}, Confidence: 0.94, Support: 31
+Rule: {296, 2858, 2028, 2959} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {6874, 4226, 1196} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {1193, 858, 1196} -> {260}, Confidence: 0.94, Support: 31
+Rule: {1240, 1196, 293} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {593, 3578, 1196} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {2762, 2858, 1196, 318} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {1196, 293, 47} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {1210, 2858, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {4226, 260, 110} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {318, 2571, 260, 110} -> {1196}, Confidence: 0.94, Support: 31
+Rule: {858, 1196, 110} -> {260}, Confidence: 0.94, Support: 31
+Rule: {2762, 3793, 4306} -> {260}, Confidence: 0.94, Support: 31
+Rule: {6874, 4226, 110} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {4993, 260, 1221} -> {1196}, Confidence: 0.94, Support: 31
+Rule: {1200, 2028, 1240} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {296, 2858, 1196, 2028} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {2858, 1036, 2028} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {480, 110, 2959} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {593, 50, 2028} -> {296}, Confidence: 0.94, Support: 31
+Rule: {1210, 1036, 318} -> {260}, Confidence: 0.94, Support: 31
+Rule: {593, 7361, 6874, 2959} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {593, 4226, 2858, 2959} -> {2571}, Confidence: 0.94, Support: 31
+Rule: {2858, 1196, 2028} -> {2571}, Confidence: 0.93, Support: 43
+Rule: {2028, 293} -> {2571}, Confidence: 0.93, Support: 42
+Rule: {3578, 260, 1196} -> {2571}, Confidence: 0.93, Support: 41
+Rule: {3793, 1196, 318} -> {2571}, Confidence: 0.93, Support: 40
