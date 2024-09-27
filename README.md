@@ -38,12 +38,12 @@ Arghya, Muskan
 - [x] Data Preprocessing
     - [x] Form transactional dataset
     - [x] Train-test split
-- [ ] Association Rule Mining
-    - [ ] Extract set of all association rules using Apriori/FP Growth
-    - [ ] Recommendation
-        - [ ] Top 100 association rules based on support
-        - [ ] Top 100 association rules based on confidence
-        - [ ] Common rules between the two, prioritizing confidence
-    - [ ] Compute average precision and recall by varying number of rules and plot graphs
-    - [ ] Display precision and recall graphs for sample user
+- [x] Association Rule Mining
+    - [x] Extract set of all association rules using Apriori/FP Growth
+    - [x] Recommendation
+        - [x] Top 100 association rules based on support
+        - [x] Top 100 association rules based on confidence
+        - [x] Common rules between the two, prioritizing confidence
+    - [x] Compute average precision and recall by varying number of rules and plot graphs
+    - [x] Display precision and recall graphs for sample user
 - [ ] Report
