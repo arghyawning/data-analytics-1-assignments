@@ -1,100 +1,100 @@
-Rule: {'Star Wars: Episode V - The Empire Strikes Back (1980)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.73, Support: 0.19
-Rule: {'Star Wars: Episode VI - Return of the Jedi (1983)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.75, Support: 0.18
-Rule: {'Lord of the Rings: The Two Towers, The (2002)'} -> {'Lord of the Rings: The Fellowship of the Ring, The (2001)'}, Confidence: 0.74, Support: 0.18
-Rule: {'Lord of the Rings: The Fellowship of the Ring, The (2001)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.71, Support: 0.18
-Rule: {'Seven (a.k.a. Se7en) (1995)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.72, Support: 0.17
-Rule: {'Lord of the Rings: The Return of the King, The (2003)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.72, Support: 0.16
-Rule: {'Godfather: Part II, The (1974)'} -> {'Godfather, The (1972)'}, Confidence: 0.82, Support: 0.14
-Rule: {'Mrs. Doubtfire (1993)'} -> {'Forrest Gump (1994)'}, Confidence: 0.79, Support: 0.14
-Rule: {'Reservoir Dogs (1992)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.77, Support: 0.14
-Rule: {'Dances with Wolves (1990)'} -> {'Forrest Gump (1994)'}, Confidence: 0.70, Support: 0.13
-Rule: {'Goodfellas (1990)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.76, Support: 0.13
-Rule: {'Indiana Jones and the Last Crusade (1989)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.70, Support: 0.12
-Rule: {'Pretty Woman (1990)'} -> {'Forrest Gump (1994)'}, Confidence: 0.71, Support: 0.12
-Rule: {'American History X (1998)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.71, Support: 0.12
-Rule: {'Shining, The (1980)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.74, Support: 0.10
-Rule: {'Big Lebowski, The (1998)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.74, Support: 0.10
-Rule: {'Star Wars: Episode I - The Phantom Menace (1999)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.76, Support: 0.10
-Rule: {'Clockwork Orange, A (1971)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.73, Support: 0.10
-Rule: {'Indiana Jones and the Temple of Doom (1984)'} -> {'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'}, Confidence: 0.75, Support: 0.10
-Rule: {'Indiana Jones and the Temple of Doom (1984)'} -> {'Indiana Jones and the Last Crusade (1989)'}, Confidence: 0.75, Support: 0.10
-Rule: {'Green Mile, The (1999)'} -> {'Shawshank Redemption, The (1994)'}, Confidence: 0.71, Support: 0.10
-Rule: {'Indiana Jones and the Temple of Doom (1984)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.75, Support: 0.10
-Rule: {'Trainspotting (1996)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.75, Support: 0.10
-Rule: {'Kill Bill: Vol. 2 (2004)'} -> {'Kill Bill: Vol. 1 (2003)'}, Confidence: 0.76, Support: 0.10
-Rule: {'Apocalypse Now (1979)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.70, Support: 0.09
-Rule: {'Full Metal Jacket (1987)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.73, Support: 0.09
-Rule: {'Requiem for a Dream (2000)'} -> {'Fight Club (1999)'}, Confidence: 0.74, Support: 0.09
-Rule: {'Inglourious Basterds (2009)'} -> {'Matrix, The (1999)'}, Confidence: 0.72, Support: 0.09
-Rule: {'Ghost (1990)'} -> {'Forrest Gump (1994)'}, Confidence: 0.72, Support: 0.09
-Rule: {'Requiem for a Dream (2000)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.72, Support: 0.09
-Rule: {'Austin Powers: International Man of Mystery (1997)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.70, Support: 0.09
-Rule: {'Four Weddings and a Funeral (1994)'} -> {'Forrest Gump (1994)'}, Confidence: 0.73, Support: 0.09
-Rule: {'Total Recall (1990)'} -> {'Saving Private Ryan (1998)'}, Confidence: 0.71, Support: 0.08
-Rule: {'Back to the Future Part III (1990)'} -> {'Forrest Gump (1994)'}, Confidence: 0.78, Support: 0.08
-Rule: {'Sin City (2005)'} -> {'Fight Club (1999)'}, Confidence: 0.79, Support: 0.08
-Rule: {'Spider-Man 2 (2004)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.76, Support: 0.08
-Rule: {'Psycho (1960)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.74, Support: 0.08
-Rule: {'Casino Royale (2006)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.75, Support: 0.08
-Rule: {'Lethal Weapon (1987)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.71, Support: 0.08
-Rule: {'Matrix Reloaded, The (2003)'} -> {'Matrix, The (1999)'}, Confidence: 0.73, Support: 0.08
-Rule: {'Casino Royale (2006)'} -> {'Matrix, The (1999)'}, Confidence: 0.73, Support: 0.08
-Rule: {'Shrek 2 (2004)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.71, Support: 0.07
-Rule: {'Quiz Show (1994)'} -> {'Shawshank Redemption, The (1994)'}, Confidence: 0.71, Support: 0.07
-Rule: {'Casino Royale (2006)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.70, Support: 0.07
-Rule: {'Harry Potter and the Goblet of Fire (2005)'} -> {'Harry Potter and the Prisoner of Azkaban (2004)'}, Confidence: 0.76, Support: 0.07
-Rule: {'Sin City (2005)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.72, Support: 0.07
-Rule: {'Wizard of Oz, The (1939)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.72, Support: 0.07
-Rule: {'Shaun of the Dead (2004)'} -> {'Matrix, The (1999)'}, Confidence: 0.73, Support: 0.07
-Rule: {'Shaun of the Dead (2004)'} -> {'Fight Club (1999)'}, Confidence: 0.73, Support: 0.07
-Rule: {"Monty Python's Life of Brian (1979)"} -> {'Pulp Fiction (1994)'}, Confidence: 0.71, Support: 0.07
-Rule: {'Dave (1993)'} -> {'Forrest Gump (1994)'}, Confidence: 0.71, Support: 0.07
-Rule: {'Star Wars: Episode II - Attack of the Clones (2002)'} -> {'Matrix, The (1999)'}, Confidence: 0.70, Support: 0.07
-Rule: {'Shaun of the Dead (2004)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.72, Support: 0.07
-Rule: {'Back to the Future Part II (1989)'} -> {'Back to the Future (1985)'}, Confidence: 0.75, Support: 0.07
-Rule: {'Back to the Future Part II (1989)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.75, Support: 0.07
-Rule: {'Shaun of the Dead (2004)'} -> {'Lord of the Rings: The Fellowship of the Ring, The (2001)'}, Confidence: 0.70, Support: 0.07
-Rule: {'Snow White and the Seven Dwarfs (1937)'} -> {'Lion King, The (1994)'}, Confidence: 0.72, Support: 0.07
-Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.86, Support: 0.07
-Rule: {'City of God (Cidade de Deus) (2002)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.77, Support: 0.07
-Rule: {'Run Lola Run (Lola rennt) (1998)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.75, Support: 0.07
-Rule: {'Maverick (1994)'} -> {'Forrest Gump (1994)'}, Confidence: 0.75, Support: 0.07
-Rule: {'Slumdog Millionaire (2008)'} -> {'Matrix, The (1999)'}, Confidence: 0.70, Support: 0.07
-Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Matrix, The (1999)'}, Confidence: 0.82, Support: 0.07
-Rule: {'Mary Poppins (1964)'} -> {'Forrest Gump (1994)'}, Confidence: 0.71, Support: 0.06
-Rule: {'Run Lola Run (Lola rennt) (1998)'} -> {'Matrix, The (1999)'}, Confidence: 0.74, Support: 0.06
-Rule: {'Scarface (1983)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.78, Support: 0.06
-Rule: {'No Country for Old Men (2007)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.76, Support: 0.06
-Rule: {'City of God (Cidade de Deus) (2002)'} -> {'Shawshank Redemption, The (1994)'}, Confidence: 0.72, Support: 0.06
-Rule: {'X2: X-Men United (2003)'} -> {'Matrix, The (1999)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Lock, Stock & Two Smoking Barrels (1998)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.72, Support: 0.06
-Rule: {'Harry Potter and the Order of the Phoenix (2007)'} -> {'Harry Potter and the Goblet of Fire (2005)'}, Confidence: 0.81, Support: 0.06
-Rule: {'City of God (Cidade de Deus) (2002)'} -> {'Fight Club (1999)'}, Confidence: 0.72, Support: 0.06
-Rule: {'South Park: Bigger, Longer and Uncut (1999)'} -> {'Matrix, The (1999)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Avengers, The (2012)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.70, Support: 0.06
-Rule: {'Matrix Revolutions, The (2003)'} -> {'Matrix, The (1999)'}, Confidence: 0.78, Support: 0.06
-Rule: {'Matrix Revolutions, The (2003)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.78, Support: 0.06
-Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.76, Support: 0.06
-Rule: {'Planet of the Apes (1968)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.80, Support: 0.06
-Rule: {'South Park: Bigger, Longer and Uncut (1999)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.71, Support: 0.06
-Rule: {'Citizen Kane (1941)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Mars Attacks! (1996)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.76, Support: 0.06
-Rule: {"Pirates of the Caribbean: Dead Man's Chest (2006)"} -> {'Pirates of the Caribbean: The Curse of the Black Pearl (2003)'}, Confidence: 0.71, Support: 0.06
-Rule: {'Last Samurai, The (2003)'} -> {'Lord of the Rings: The Fellowship of the Ring, The (2001)'}, Confidence: 0.78, Support: 0.06
-Rule: {'Matrix Revolutions, The (2003)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Starship Troopers (1997)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.72, Support: 0.06
-Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)'} -> {'Pirates of the Caribbean: The Curse of the Black Pearl (2003)'}, Confidence: 0.73, Support: 0.06
-Rule: {'Abyss, The (1989)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.77, Support: 0.06
-Rule: {'Bruce Almighty (2003)'} -> {'Forrest Gump (1994)'}, Confidence: 0.72, Support: 0.06
-Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.71, Support: 0.06
-Rule: {'Sherlock Holmes (2009)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.74, Support: 0.06
+Rule: {'Lord of the Rings: The Return of the King, The (2003)'} -> {'Lord of the Rings: The Fellowship of the Ring, The (2001)'}, Confidence: 0.71, Support: 0.16
+Rule: {'Speed (1994)'} -> {'Forrest Gump (1994)'}, Confidence: 0.71, Support: 0.14
+Rule: {'Beauty and the Beast (1991)'} -> {'Aladdin (1992)'}, Confidence: 0.71, Support: 0.14
+Rule: {'Men in Black (a.k.a. MIB) (1997)'} -> {'Forrest Gump (1994)'}, Confidence: 0.70, Support: 0.14
+Rule: {'Godfather: Part II, The (1974)'} -> {'Godfather, The (1972)'}, Confidence: 0.77, Support: 0.13
+Rule: {'Mrs. Doubtfire (1993)'} -> {'Forrest Gump (1994)'}, Confidence: 0.73, Support: 0.13
+Rule: {'Kill Bill: Vol. 1 (2003)'} -> {'Fight Club (1999)'}, Confidence: 0.72, Support: 0.12
+Rule: {'Terminator, The (1984)'} -> {'Terminator 2: Judgment Day (1991)'}, Confidence: 0.71, Support: 0.12
+Rule: {'Reservoir Dogs (1992)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.70, Support: 0.12
+Rule: {'Clear and Present Danger (1994)'} -> {'Forrest Gump (1994)'}, Confidence: 0.75, Support: 0.11
+Rule: {'Minority Report (2002)'} -> {'Matrix, The (1999)'}, Confidence: 0.71, Support: 0.11
+Rule: {'Indiana Jones and the Temple of Doom (1984)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.77, Support: 0.11
+Rule: {'Kill Bill: Vol. 2 (2004)'} -> {'Kill Bill: Vol. 1 (2003)'}, Confidence: 0.79, Support: 0.11
+Rule: {'Kill Bill: Vol. 2 (2004)'} -> {'Fight Club (1999)'}, Confidence: 0.74, Support: 0.10
+Rule: {'Big Lebowski, The (1998)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.70, Support: 0.10
+Rule: {'Batman Forever (1995)'} -> {'Batman (1989)'}, Confidence: 0.71, Support: 0.10
+Rule: {'Departed, The (2006)'} -> {'Fight Club (1999)'}, Confidence: 0.70, Support: 0.10
+Rule: {'Sleepless in Seattle (1993)'} -> {'Forrest Gump (1994)'}, Confidence: 0.72, Support: 0.10
+Rule: {'Trainspotting (1996)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.74, Support: 0.10
+Rule: {'Four Weddings and a Funeral (1994)'} -> {'Forrest Gump (1994)'}, Confidence: 0.76, Support: 0.10
+Rule: {'Cliffhanger (1993)'} -> {'True Lies (1994)'}, Confidence: 0.80, Support: 0.09
+Rule: {'Star Wars: Episode I - The Phantom Menace (1999)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.71, Support: 0.09
+Rule: {'Snatch (2000)'} -> {'Fight Club (1999)'}, Confidence: 0.71, Support: 0.09
+Rule: {'Star Wars: Episode I - The Phantom Menace (1999)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.71, Support: 0.09
+Rule: {'Matrix Reloaded, The (2003)'} -> {'Matrix, The (1999)'}, Confidence: 0.74, Support: 0.08
+Rule: {'While You Were Sleeping (1995)'} -> {'Jurassic Park (1993)'}, Confidence: 0.72, Support: 0.08
+Rule: {'Firm, The (1993)'} -> {'Jurassic Park (1993)'}, Confidence: 0.71, Support: 0.08
+Rule: {'Requiem for a Dream (2000)'} -> {'Fight Club (1999)'}, Confidence: 0.75, Support: 0.08
+Rule: {'Total Recall (1990)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.75, Support: 0.08
+Rule: {'Shaun of the Dead (2004)'} -> {'Fight Club (1999)'}, Confidence: 0.77, Support: 0.08
+Rule: {'Spider-Man 2 (2004)'} -> {'Spider-Man (2002)'}, Confidence: 0.75, Support: 0.08
+Rule: {'Back to the Future Part II (1989)'} -> {'Back to the Future (1985)'}, Confidence: 0.80, Support: 0.08
+Rule: {'Dark Knight Rises, The (2012)'} -> {'Dark Knight, The (2008)'}, Confidence: 0.80, Support: 0.08
+Rule: {'Spider-Man 2 (2004)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.73, Support: 0.08
+Rule: {'Home Alone (1990)'} -> {'Forrest Gump (1994)'}, Confidence: 0.76, Support: 0.08
+Rule: {'Back to the Future Part III (1990)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.71, Support: 0.08
+Rule: {'Dave (1993)'} -> {'Batman (1989)'}, Confidence: 0.77, Support: 0.08
+Rule: {'Little Miss Sunshine (2006)'} -> {'Fight Club (1999)'}, Confidence: 0.71, Support: 0.08
+Rule: {'Casino Royale (2006)'} -> {'Fight Club (1999)'}, Confidence: 0.72, Support: 0.08
+Rule: {'Lethal Weapon (1987)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.73, Support: 0.07
+Rule: {'Lethal Weapon (1987)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.73, Support: 0.07
+Rule: {'Home Alone (1990)'} -> {'Jurassic Park (1993)'}, Confidence: 0.73, Support: 0.07
+Rule: {'Casino Royale (2006)'} -> {'Forrest Gump (1994)'}, Confidence: 0.70, Support: 0.07
+Rule: {"Pirates of the Caribbean: Dead Man's Chest (2006)"} -> {'Pirates of the Caribbean: The Curse of the Black Pearl (2003)'}, Confidence: 0.76, Support: 0.07
+Rule: {'Sin City (2005)'} -> {'Fight Club (1999)'}, Confidence: 0.75, Support: 0.07
+Rule: {'Shaun of the Dead (2004)'} -> {'Pirates of the Caribbean: The Curse of the Black Pearl (2003)'}, Confidence: 0.71, Support: 0.07
+Rule: {'Back to the Future Part II (1989)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.73, Support: 0.07
+Rule: {'Dark Knight Rises, The (2012)'} -> {'Inception (2010)'}, Confidence: 0.71, Support: 0.07
+Rule: {'Harry Potter and the Goblet of Fire (2005)'} -> {"Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001)"}, Confidence: 0.75, Support: 0.07
+Rule: {'Sin City (2005)'} -> {'Pulp Fiction (1994)'}, Confidence: 0.71, Support: 0.07
+Rule: {'In the Line of Fire (1993)'} -> {'Fugitive, The (1993)'}, Confidence: 0.75, Support: 0.07
+Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.85, Support: 0.07
+Rule: {'Face/Off (1997)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.73, Support: 0.07
+Rule: {'Django Unchained (2012)'} -> {'Shawshank Redemption, The (1994)'}, Confidence: 0.71, Support: 0.07
+Rule: {'Harry Potter and the Goblet of Fire (2005)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.71, Support: 0.07
+Rule: {'RoboCop (1987)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.80, Support: 0.07
+Rule: {'Face/Off (1997)'} -> {'Die Hard (1988)'}, Confidence: 0.71, Support: 0.07
+Rule: {'Face/Off (1997)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.71, Support: 0.07
+Rule: {'Last Samurai, The (2003)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.80, Support: 0.07
+Rule: {'Shutter Island (2010)'} -> {'Dark Knight, The (2008)'}, Confidence: 0.75, Support: 0.06
+Rule: {'Top Gun (1986)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.71, Support: 0.06
+Rule: {'RoboCop (1987)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.78, Support: 0.06
 Rule: {'Last Samurai, The (2003)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.76, Support: 0.06
-Rule: {'Mars Attacks! (1996)'} -> {'Fargo (1996)'}, Confidence: 0.71, Support: 0.06
-Rule: {'Charlie and the Chocolate Factory (2005)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.85, Support: 0.06
-Rule: {'Zoolander (2001)'} -> {'Fight Club (1999)'}, Confidence: 0.83, Support: 0.06
-Rule: {'Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.71, Support: 0.06
-Rule: {'Social Network, The (2010)'} -> {'Inception (2010)'}, Confidence: 0.76, Support: 0.06
-Rule: {'Unbreakable (2000)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.73, Support: 0.06
-Rule: {'American Psycho (2000)'} -> {'Fight Club (1999)'}, Confidence: 0.78, Support: 0.06
+Rule: {'RoboCop (1987)'} -> {'Terminator 2: Judgment Day (1991)'}, Confidence: 0.76, Support: 0.06
+Rule: {'Little Mermaid, The (1989)'} -> {'Aladdin (1992)'}, Confidence: 0.81, Support: 0.06
+Rule: {'American Psycho (2000)'} -> {'Fight Club (1999)'}, Confidence: 0.88, Support: 0.06
+Rule: {'Abyss, The (1989)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.81, Support: 0.06
+Rule: {'Children of Men (2006)'} -> {'Fight Club (1999)'}, Confidence: 0.74, Support: 0.06
+Rule: {'Hot Fuzz (2007)'} -> {'Fight Club (1999)'}, Confidence: 0.80, Support: 0.06
+Rule: {'Client, The (1994)'} -> {'Forrest Gump (1994)'}, Confidence: 0.77, Support: 0.06
+Rule: {'Abyss, The (1989)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.79, Support: 0.06
+Rule: {'Spaceballs (1987)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.90, Support: 0.06
+Rule: {'Last Samurai, The (2003)'} -> {'Forrest Gump (1994)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Last Samurai, The (2003)'} -> {'Lord of the Rings: The Fellowship of the Ring, The (2001)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Star Trek II: The Wrath of Khan (1982)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.73, Support: 0.06
+Rule: {'Star Wars: Episode II - Attack of the Clones (2002)'} -> {'Matrix, The (1999)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Star Wars: Episode II - Attack of the Clones (2002)'} -> {'Spider-Man (2002)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Star Trek II: The Wrath of Khan (1982)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.73, Support: 0.06
+Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.75, Support: 0.06
+Rule: {'RoboCop (1987)'} -> {'Matrix, The (1999)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Slumdog Millionaire (2008)'} -> {'Fight Club (1999)'}, Confidence: 0.78, Support: 0.06
+Rule: {'Star Wars: Episode II - Attack of the Clones (2002)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Star Wars: Episode IV - A New Hope (1977)'}, Confidence: 0.75, Support: 0.06
+Rule: {'Children of Men (2006)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Star Wars: Episode III - Revenge of the Sith (2005)'} -> {'Matrix, The (1999)'}, Confidence: 0.75, Support: 0.06
+Rule: {'District 9 (2009)'} -> {'Matrix, The (1999)'}, Confidence: 0.71, Support: 0.06
+Rule: {'Star Wars: Episode II - Attack of the Clones (2002)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.72, Support: 0.06
+Rule: {'Kung Fu Panda (2008)'} -> {'Up (2009)'}, Confidence: 0.73, Support: 0.06
+Rule: {'Matrix Revolutions, The (2003)'} -> {'Lord of the Rings: The Two Towers, The (2002)'}, Confidence: 0.73, Support: 0.06
+Rule: {'Anchorman: The Legend of Ron Burgundy (2004)'} -> {'Fight Club (1999)'}, Confidence: 0.80, Support: 0.06
+Rule: {'Goonies, The (1985)'} -> {'Star Wars: Episode V - The Empire Strikes Back (1980)'}, Confidence: 0.81, Support: 0.06
+Rule: {'Client, The (1994)'} -> {'Jurassic Park (1993)'}, Confidence: 0.73, Support: 0.06
+Rule: {'Matrix Revolutions, The (2003)'} -> {'Matrix, The (1999)'}, Confidence: 0.73, Support: 0.06
+Rule: {'Royal Tenenbaums, The (2001)'} -> {'Fight Club (1999)'}, Confidence: 0.71, Support: 0.06
+Rule: {'RoboCop (1987)'} -> {'Jurassic Park (1993)'}, Confidence: 0.70, Support: 0.06
+Rule: {'Kung Fu Panda (2008)'} -> {'Forrest Gump (1994)'}, Confidence: 0.71, Support: 0.06
+Rule: {"Pirates of the Caribbean: At World's End (2007)"} -> {'Pirates of the Caribbean: The Curse of the Black Pearl (2003)'}, Confidence: 0.79, Support: 0.06
+Rule: {'Spaceballs (1987)'} -> {'Star Wars: Episode VI - Return of the Jedi (1983)'}, Confidence: 0.83, Support: 0.06
+Rule: {'Die Hard 2 (1990)'} -> {'Die Hard (1988)'}, Confidence: 0.79, Support: 0.06
+Rule: {'Serenity (2005)'} -> {'Lord of the Rings: The Return of the King, The (2003)'}, Confidence: 0.74, Support: 0.06
