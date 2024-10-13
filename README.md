@@ -61,6 +61,6 @@ Arghya, Muskan
         - [ ] something
         - [ ] satisfied with the results
 - [ ] Random Forest
-    - [ ] something
+    - [x] something
     - [ ] satisfied with the results
 - [ ] Report
