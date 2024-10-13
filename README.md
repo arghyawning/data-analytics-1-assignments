@@ -51,6 +51,8 @@ Arghya, Muskan
 ### Assignment 4: Classification
 
 - [ ] Data Preprocessing
+    - [x] something
+    - [ ] confident about what I did
 - [ ] SVM
     - [ ] OVO
         - [ ] something
