@@ -46,4 +46,19 @@ Arghya, Muskan
         - [x] Common rules between the two, prioritizing confidence
     - [x] Compute average precision and recall by varying number of rules and plot graphs
     - [x] Display precision and recall graphs for sample user
+- [x] Report
+
+### Assignment 4: Classification
+
+- [ ] Data Preprocessing
+- [ ] SVM
+    - [ ] OVO
+        - [ ] something
+        - [ ] satisfied with the results
+    - [ ] OVA
+        - [ ] something
+        - [ ] satisfied with the results
+- [ ] Random Forest
+    - [ ] something
+    - [ ] satisfied with the results
 - [ ] Report
