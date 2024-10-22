@@ -53,13 +53,13 @@ Arghya, Muskan
 - [x] Data Preprocessing
     - [x] something
     - [x] confident about what I did (checked cos idc no more)
-- [ ] SVM
-    - [ ] OVO
-        - [ ] something
-        - [ ] satisfied with the results
-    - [ ] OVA
-        - [ ] something
-        - [ ] satisfied with the results
+- [x] SVM
+    - [x] OVO
+        - [x] something
+        - [x] satisfied with the results
+    - [x] OVA
+        - [x] something
+        - [x] satisfied with the results
 - [x] Random Forest
     - [x] something
     - [x] satisfied with the results
