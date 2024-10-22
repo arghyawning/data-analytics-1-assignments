@@ -50,9 +50,9 @@ Arghya, Muskan
 
 ### Assignment 4: Classification
 
-- [ ] Data Preprocessing
+- [x] Data Preprocessing
     - [x] something
-    - [ ] confident about what I did
+    - [x] confident about what I did (checked cos idc no more)
 - [ ] SVM
     - [ ] OVO
         - [ ] something
@@ -60,7 +60,8 @@ Arghya, Muskan
     - [ ] OVA
         - [ ] something
         - [ ] satisfied with the results
-- [ ] Random Forest
+- [x] Random Forest
     - [x] something
-    - [ ] satisfied with the results
+    - [x] satisfied with the results
 - [ ] Report
+- [ ] (unchatgpt)
