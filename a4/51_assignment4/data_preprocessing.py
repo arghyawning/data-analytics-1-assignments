@@ -6,8 +6,18 @@ def read_data(file_path):
     return data
 
 data = read_data('data/Customer_train.csv')
-test_data = read_data('data/Customer_test.csv')
+# test_data = read_data('data/Customer_test.csv')
 # print(data.head())
+
+import argparse
+
+# Set up argument parsing
+parser = argparse.ArgumentParser(description="One-vs-Many SVM classifier")
+parser.add_argument('testfile', type=str, help="Path to the test CSV file")
+args = parser.parse_args()
+
+# Load the test data
+test_data = pd.read_csv(args.testfile)
 
 # print(data['Segmentation'].unique())
 
@@ -22,11 +32,11 @@ print(data.shape[0])
 
 # drop rows with missing values in more than 2 columns
 data = data.dropna(thresh=data.shape[1]-2)
-test_data = test_data.dropna(thresh=test_data.shape[1]-2)
+# test_data = test_data.dropna(thresh=test_data.shape[1]-2)
 
 # drop rows with missing values in the 'Graduated' column
 data = data.dropna(subset=['Graduated'])
-test_data = test_data.dropna(subset=['Graduated'])
+# test_data = test_data.dropna(subset=['Graduated'])
 
 # show rows with missing values in the 'Work_Experience' column
 print(data[data['Work_Experience'].isnull()])
@@ -36,10 +46,35 @@ data.loc[(data['Graduated'] == 'No') & (data['Work_Experience'].isnull()), 'Work
 test_data.loc[(test_data['Graduated'] == 'No') & (test_data['Work_Experience'].isnull()), 'Work_Experience'] = 0
 
 print(data.isnull().sum())
+print(test_data.isnull().sum())
 
 # drop rows with missing values in any column
 data = data.dropna()
-test_data = test_data.dropna()
+# test_data = test_data.dropna()
+
+
+# handle missing values separately for test data
+
+# replace missing values in 'Work_Experience' with median
+test_data['Work_Experience'] = test_data['Work_Experience'].fillna(test_data['Work_Experience'].median())
+
+# replace missing values in 'Family_Size' with median
+test_data['Family_Size'] = test_data['Family_Size'].fillna(test_data['Family_Size'].median())
+
+# replace missing values in 'Var_1' with mode
+test_data['Var_1'] = test_data['Var_1'].fillna(test_data['Var_1'].mode()[0])
+
+# replace missing values in 'Profession' with mode
+test_data['Profession'] = test_data['Profession'].fillna(test_data['Profession'].mode()[0])
+
+# replace missing values in 'Ever_Married' with mode
+test_data['Ever_Married'] = test_data['Ever_Married'].fillna(test_data['Ever_Married'].mode()[0])
+
+# replace missing values in 'Graduated' with mode
+test_data['Graduated'] = test_data['Graduated'].fillna(test_data['Graduated'].mode()[0])
+
+print(test_data.isnull().sum())
+
 
 # length of the data after dropping rows with missing values
 print(data.shape[0])
