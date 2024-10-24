@@ -93,6 +93,9 @@ classifiers = train_ovo_svm(X_train, y_train, classes, best_params[0], best_para
 test_data = pd.read_csv('data/test_preprocessed.csv')
 test_predictions = ovo_predict(test_data, classifiers, classes)
 
+# map the predictions to the original classes (A, B, C, D)
+test_predictions = pd.Series(test_predictions).map({0: 'A', 1: 'B', 2: 'C', 3: 'D'})
+
 # Save final predictions to CSV
 output = pd.DataFrame({'predicted': test_predictions})
 output.to_csv('ovo.csv', index=False)

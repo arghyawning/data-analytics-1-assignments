@@ -101,6 +101,9 @@ for idx, cls in enumerate(classes):
 # Choose the class with the highest decision score
 test_predictions = classes[np.argmax(decision_values, axis=1)]
 
+# map the predicted values to the original classes (e.g., A, B, C, D)
+test_predictions = pd.Series(test_predictions).map({0: 'A', 1: 'B', 2: 'C', 3: 'D'})
+
 # Save predictions to CSV
 output = pd.DataFrame({'predicted': test_predictions})
 output.to_csv('ova.csv', index=False)
