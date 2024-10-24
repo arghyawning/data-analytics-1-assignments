@@ -11,7 +11,7 @@ import subprocess
 
 warnings.filterwarnings("ignore")
 
-parser = argparse.ArgumentParser(description="One-vs-One SVM classifier")
+parser = argparse.ArgumentParser(description="One-vs-All SVM classifier")
 parser.add_argument('testfile', type=str, help="Path to the test CSV file")
 args = parser.parse_args()
 
