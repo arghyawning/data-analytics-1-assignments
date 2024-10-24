@@ -65,4 +65,3 @@ Arghya, Muskan
     - [x] satisfied with the results
 - [x] Hyperparameter Tuning
 - [x] Report
-- [ ] (unchatgpt)
