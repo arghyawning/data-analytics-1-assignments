@@ -17,7 +17,6 @@ args = parser.parse_args()
 
 subprocess.run(['python', './data_preprocessing.py', args.testfile])
 
-
 data = pd.read_csv('data/train_preprocessed.csv')
 
 X = data.drop('Segmentation', axis=1)
@@ -27,8 +26,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 classes = np.unique(y_train)
 
-# Function to train binary classifiers for each pair of classes
-def train_ovo_svm(X_train, y_train, classes):
+# Function to train binary classifiers for each pair of classes with given hyperparameters
+def train_ovo_svm(X_train, y_train, classes, C, gamma):
     classifiers = {}
     # Train a binary SVM classifier for each pair of classes
     for i, class_i in enumerate(classes):
@@ -38,8 +37,8 @@ def train_ovo_svm(X_train, y_train, classes):
             X_binary = X_train.iloc[binary_indices]
             y_binary = y_train.iloc[binary_indices]
             
-            # Train a binary SVM classifier
-            svm = SVC(kernel='rbf')
+            # Train a binary SVM classifier with specified C and gamma
+            svm = SVC(kernel='rbf', C=C, gamma=gamma)
             svm.fit(X_binary, y_binary)
             classifiers[(class_i, class_j)] = svm
     return classifiers
@@ -59,19 +58,49 @@ def ovo_predict(X_test, classifiers, classes):
         predictions.append(most_common_class)
     return predictions
 
-# Train OvO SVM classifiers
-classifiers = train_ovo_svm(X_train, y_train, classes)
+# Define hyperparameter ranges for C and gamma
+C_values = [0.1, 1, 10]
+gamma_values = ['scale', 'auto', 0.01, 0.1, 1]
 
-# Make predictions on the test set using OvO logic
+# Iterate over combinations of C and gamma
+best_accuracy = 0
+best_params = None
+
+for C in C_values:
+    for gamma in gamma_values:
+        print(f"Training with C={C}, gamma={gamma}")
+        # Train OvO SVM classifiers with current C and gamma
+        classifiers = train_ovo_svm(X_train, y_train, classes, C, gamma)
+        
+        # Make predictions on the test set using OvO logic
+        ovo_predictions = ovo_predict(X_test, classifiers, classes)
+        
+        # Calculate accuracy
+        accuracy = accuracy_score(y_test, ovo_predictions)
+        print(f"Accuracy with C={C}, gamma={gamma}: {accuracy:.2f}")
+        
+        # Keep track of the best parameters
+        if accuracy > best_accuracy:
+            best_accuracy = accuracy
+            best_params = (C, gamma)
+
+# Print best hyperparameters and their accuracy
+print(f"Best Accuracy: {best_accuracy:.2f} with C={best_params[0]}, gamma={best_params[1]}")
+
+# Make final predictions on the test data with the best parameters
+print("Using best parameters for final prediction")
+classifiers = train_ovo_svm(X_train, y_train, classes, best_params[0], best_params[1])
+test_data = pd.read_csv('data/test_preprocessed.csv')
+test_predictions = ovo_predict(test_data, classifiers, classes)
+
+# Save final predictions to CSV
+output = pd.DataFrame({'predicted': test_predictions})
+output.to_csv('ovo.csv', index=False)
+
+# Evaluate final model performance on test data
 ovo_predictions = ovo_predict(X_test, classifiers, classes)
-
-# # Save predictions to CSV
-# output = pd.DataFrame({'predicted': ovo_predictions})
-# output.to_csv('ovo.csv', index=False)
-
-# Calculate accuracy
 accuracy = accuracy_score(y_test, ovo_predictions)
-print(f"One-vs-One Classifier Accuracy: {accuracy:.2f}")
+print(f"Final One-vs-One Classifier Accuracy: {accuracy:.2f}")
 
 print("Confusion Matrix")
 conf_matrix = confusion_matrix(y_test, ovo_predictions)
@@ -80,14 +109,3 @@ print(conf_matrix)
 print("Classification Report")
 class_report = classification_report(y_test, ovo_predictions)
 print(class_report)
-
-# Load the test data
-# test_data = pd.read_csv(args.testfile)
-test_data = pd.read_csv('data/test_preprocessed.csv')
-
-# Make predictions on the test data
-test_predictions = ovo_predict(test_data, classifiers, classes)
-
-# Save predictions to CSV
-output = pd.DataFrame({'predicted': test_predictions})
-output.to_csv('ovo.csv', index=False)
