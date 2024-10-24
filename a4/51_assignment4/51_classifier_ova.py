@@ -62,7 +62,7 @@ output.to_csv('ova.csv', index=False)
 
 # Calculate accuracy (optional)
 accuracy = accuracy_score(y_test, predictions)
-print(f"One-vs-One Classifier Accuracy: {accuracy:.2f}")
+print(f"One-vs-All Classifier Accuracy: {accuracy:.2f}")
 
 print("Confusion Matrix")
 conf_matrix = confusion_matrix(y_test, predictions)
