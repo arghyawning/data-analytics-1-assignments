@@ -63,5 +63,6 @@ Arghya, Muskan
 - [x] Random Forest
     - [x] something
     - [x] satisfied with the results
-- [ ] Report
+- [x] Hyperparameter Tuning
+- [x] Report
 - [ ] (unchatgpt)
